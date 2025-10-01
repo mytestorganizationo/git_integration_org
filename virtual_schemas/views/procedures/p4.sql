@@ -1,0 +1,1 @@
+CREATE OR REPLACE procedure views.p4() OWNER 'admin' EXECUTE AS CALLER as begin select 1;end OPTION $NOFAIL;;
